@@ -27,8 +27,16 @@ jobs:
           ruby-version: "3.2" # al-folio の推奨に合わせて調整可
           bundler-cache: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
 
       - name: Build site with Jekyll
         env:
