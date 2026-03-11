@@ -27,10 +27,6 @@ jobs:
           ruby-version: '3.2'        # al-folio の推奨に合わせて調整可
           bundler-cache: true
 
-      - name: Install dependencies
-        run: |
-          bundle install --path vendor/bundle
-
       - name: Build site with Jekyll
         env:
           JEKYLL_ENV: production
