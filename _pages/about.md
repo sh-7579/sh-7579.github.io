@@ -5,13 +5,13 @@ permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 # profile:
-  # align: right
-  # image: my_icon.jpg
-  # image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+# align: right
+# image: my_icon.jpg
+# image_circular: false # crops the image to make it circular
+# more_info: >
+#   <p>555 your office number</p>
+#   <p>123 your address street</p>
+#   <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -34,7 +34,6 @@ latest_posts:
   }
 </style>
 
-
 <div style="background: #ffffff !important; border: 1px solid #f0f0f0; border-radius: 24px; padding: 50px 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); margin-bottom: 40px; text-align: center;">
   
   <div style="margin-bottom: 25px;">
@@ -55,7 +54,6 @@ latest_posts:
 
 </div>
 
-
 <div style="background: #f5f5f7 !important; border: 1px solid #efefef; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); margin-bottom: 30px; background-color: #fff;">
   <h3 style="margin-top: 0; font-weight: bold; color: #1a237e; border-left: 5px solid #5c6bc0; padding-left: 15px;">Biography</h3>
   <ul style="list-style-type: none; padding-left: 5px; line-height: 2.0; color: #444; margin-bottom: 0;">
@@ -63,7 +61,6 @@ latest_posts:
     <li><strong>2003 - 2022:</strong> Born and raised in Toyama, Japan.</li>
   </ul>
 </div>
-
 
 <div style="background: #f5f5f7 !important; border: 1px solid #efefef; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); margin-bottom: 30px; background-color: #fff;">
   <h3 style="margin-top: 0; font-weight: bold; color: #1a237e; border-left: 5px solid #5c6bc0; padding-left: 15px;">Research Interests</h3>

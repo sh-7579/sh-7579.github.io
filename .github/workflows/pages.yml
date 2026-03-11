@@ -2,7 +2,7 @@ name: Deploy al-folio to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -24,8 +24,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'        # al-folio の推奨に合わせて調整可
+          ruby-version: "3.2" # al-folio の推奨に合わせて調整可
           bundler-cache: true
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
 
       - name: Build site with Jekyll
         env:
