@@ -237,7 +237,7 @@ latest_posts:
     </li>
     <li>
       <span class="year">2025</span>
-      <span><a href="https://www.ieice.org/tohoku/award/images/2025awards.pdf" target="_blank" style="color: #444; text-decoration: underline;">電子情報通信学会東北支部優秀学生表彰</a></span>
+      <span><a href="https://www.ieice.org/tohoku/award/images/2025awards.pdf" target="_blank" style="color: #444; text-decoration: underline;">電子情報通信学会東北支部 優秀学生表彰</a></span>
     </li>
   </ul>
 </div>
